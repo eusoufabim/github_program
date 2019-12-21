@@ -11,7 +11,10 @@ public class Program {
 		System.out.println("Mensagem de Natal: "+msg);
 		System.out.println("Mensagem de Natal: "+msg.toUpperCase());
 		
-		
+		for (int i = 0; i < 5; i++) {
+			System.out.println(i+""+msg.toLowerCase());
+			System.out.println(i+""+msg.toUpperCase());
+		}
 		sc.close();
 
 	}
