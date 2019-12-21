@@ -9,6 +9,8 @@ public class Program {
 		String msg = sc.nextLine();
 		
 		System.out.println("Mensagem de Natal: "+msg);
+		System.out.println("Mensagem de Natal: "+msg.toUpperCase());
+		
 		
 		sc.close();
 
